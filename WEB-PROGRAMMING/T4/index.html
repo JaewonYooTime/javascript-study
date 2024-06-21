@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>경주 기록 예제</title>
+    <link rel="stylesheet" href="./02.css" />
+    <script defer src="./02.js"></script>
+  </head>
+  <body>
+    <h1>달리기 경주 기록</h1>
+
+    <select id="school">
+      <option value="">전체 학교</option>
+      <option value="근성">근성대</option>
+      <option value="복근">복근대</option>
+      <option value="박력">박력대</option>
+    </select>
+
+    <input type="number" id="grade" value="1" min="1" max="4" />
+    <label for="sort">학년 이상</label>
+
+    <input type="checkbox" id="sort" />
+    <label for="sort">기록순 정렬</label>
+
+    <table>
+      <thead>
+        <th>번호</th>
+        <th>학교</th>
+        <th>학년</th>
+        <th>이름</th>
+        <th>기록</th>
+      </thead>
+      <tbody id="raceTbody"></tbody>
+    </table>
+  </body>
+</html>

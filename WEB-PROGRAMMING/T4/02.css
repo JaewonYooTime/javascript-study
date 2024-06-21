@@ -1,0 +1,31 @@
+body {
+  padding: 16px 32px;
+  font-size: 1.2em;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #eee;
+  border-bottom: 2px solid #ddd;
+}
+
+select,
+input {
+  margin-bottom: 18px;
+  font-size: 1em;
+  padding: 4px 8px;
+}
+
+input {
+  margin-left: 16px;
+}
